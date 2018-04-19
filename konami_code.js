@@ -9,6 +9,8 @@ function init() {
   function konamiAlert(e){
     if (e.key === code[index]){
       index++;
+      console.log(e.key)
+      console.log(index)
       if (index === code.length){
          alert("you did it!");
          index = 0;
