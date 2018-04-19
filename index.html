@@ -5,28 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
-    <!-- added in to differentiate testing divs below -->
-    <style>
-      body {
-        border: 1px solid black;
-        padding-top: 10px;
-        padding-bottom: 100px;
-      }
-      div {
-        padding-left: 20px;
-      }
-      #first{
-         border: 1px dotted blue;
-      }
-      #second {
-         border: 1px dotted red;
-         padding-left: 20px;
-      }
-      #third{
-         border: 1px dotted orange;
-         padding-left: 20px;
-      }
-    </style>
+    
   </head>
 
   <body>
@@ -38,15 +17,5 @@
     <script>mocha.setup('bdd');</script>
     <script src="test/index-test.js"></script>
     
-    <!-- added in for testing stuff -->
-    <div id='first'>
-      first div
-      <div id='second'>
-        second div - nested
-        <div id ='third'>
-          third div - still nested
-        </div>
-      </div>
-    </div>
   </body>
 </html>
