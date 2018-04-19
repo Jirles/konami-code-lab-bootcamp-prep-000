@@ -9,7 +9,7 @@ function init() {
     for (let i = 0; i < 10;i++){
       //if using codeStrings, use e.key//
       if (e.which === parseInt(code[i])){
-        continue;
+        
       } else {
         return;
       }
