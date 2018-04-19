@@ -13,8 +13,8 @@ function init() {
       } else {
         return;
       }
-    alert("Nice Job :)");
     }
+    alert("Nice Job :)");
   }
   document.body.addEventListener('keydown', konamiAlert);
 }
