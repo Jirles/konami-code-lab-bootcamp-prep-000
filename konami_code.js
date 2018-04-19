@@ -12,10 +12,10 @@ function init() {
       index++;
       if (index === code.length){
          alert("Nice Job :)");
-         index = 0
+         index = 0;
       }
     } else {
-      index = 0
+      index = 0;
       return;
     }
   }
