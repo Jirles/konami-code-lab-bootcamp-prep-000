@@ -12,7 +12,7 @@ function init() {
       console.log(e.key)
       console.log(index)
       if (index === code.length){
-         alert("you did it!");
+         alert("Hurray!");
          index = 0;
       }
     } else {
