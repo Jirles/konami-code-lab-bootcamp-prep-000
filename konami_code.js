@@ -9,8 +9,8 @@ function init() {
   function konamiAlert(e){
     if (e.which === code[index]){
       index++;
-      console.log(e.which)
-      console.log(index)
+      //console.log(e.which)
+      //console.log(index)
       if (index === code.length){
          alert("Hurray!");
          index = 0;
