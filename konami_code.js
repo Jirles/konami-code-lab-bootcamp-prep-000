@@ -7,7 +7,8 @@ function init() {
   // Write your JavaScript code inside the init() function
   let index = 0;
   function konamiAlert(e){
-    if (e.which === code[index]){
+    var key = parseInt(e.which || e.detail);
+    if (key === code[index]){
       index++;
       //console.log(e.which)
       //console.log(index)
